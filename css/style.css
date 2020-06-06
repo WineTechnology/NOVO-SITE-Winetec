@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fefefe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* MENU */
+
+header .menu {
+    height: 80px;
+    width: 100%;
+    background-color: #3e7521;
+}
+
+.menu nav {
+    padding-top: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu ul {
+    display: inline-block;
+}
+
+.menu .menu_ul_component li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu .menu_ul_component a {
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: 600;
+}
+
+.menu #ul_login {
+    float: right;
+    background-color: #fefefe;
+    color: #3e7521;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.menu #ul_logo {
+    padding-right: 20px;
+    border-right: 1px #8cb732 solid;
+}
+
+.menu #ul_social_medias {
+    margin: 0px 40px 0px 40px;
+}
+
+.menu #ul_social_medias li {
+    margin: 0px 10px 0px 10px;
+}
+
+.menu #ul_topics li {
+    margin: 0px 30px 0px 30px;
+}
+
+.menu #ul_topics li:hover a {
+    /* text-decoration: underline; */
+    transition: 400ms;
+    border-bottom: 2px #fefefe solid;
+}
+
+
+/* END MENU */
+
+
+/* ARTICLE */
+
+section {
+    padding: 100px 0px
+}
+
+.section_content {
+    margin: auto;
+    width: 1000px;
+    ;
+}
+
+#section1 h1 {
+    font-size: 45px;
+}
+
+#section img {
+    width: 500px;
+}
+
+#section1 .section_content div {
+    width: 500px;
+    display: inline-block;
+}
+
+.button {
+    margin-top: 30px;
+    background-color: #8cb732;
+    color: #fefefe;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#section2 {
+    background-color: #3e7521;
+    height: 400px;
+}
+
+#section2 .section_content div {
+    width: 500px;
+    display: inline-block;
+}
+
+#section2 h1 {
+    font-size: 45px;
+    color: #fefefe;
+}
+
+#section2 h2 {
+    font-size: 30px;
+    color: #fefefe;
+}
+
+#section2 p {
+    color: #fefefe;
+}
+
+#section2 img {
+    height: 400px;
+    float: left;
+}
+
+#section3 {
+    background-color: #fefefe;
+}
+
+#section3 .section_content div {
+    width: 500px;
+    display: inline-block;
+}
+
+#section3 h1 {
+    font-size: 45px;
+    color: #3e7521;
+}
+
+#section3 h2 {
+    font-size: 30px;
+    color: #8cb732;
+}
+
+#section3 p {
+    color: #13180c;
+}
+
+#section3 img {
+    height: 400px;
+}
+
+#section4 {
+    background-color: #eeeeee;
+}
+
+#section4 header * {
+    display: inline-block;
+}
+
+#section4 header div {
+    width: fit-content;
+    margin: 0 139px;
+}
+
+#section4 footer {
+    background-color: #eeeeee;
+    height: fit-content;
+}
+
+#section4 h1 {
+    font-size: 45px;
+    color: #3e7521;
+    text-align: center;
+}
+
+#section4 p {
+    color: #13180c;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+#section4 img {
+    height: 150px;
+}
+
+#section5 {
+    background-color: #8cb732;
+}
+
+#section5 div {
+    width: 1000px;
+}
+
+#section5 h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #fefefe;
+}
+
+#section5 li {
+    margin: 0px 44px;
+    display: inline-block;
+    list-style: none;
+}
+
+#section5 li p {
+    padding: 20px;
+    width: 200px;
+    color: #13180c;
+    font-size: 20px;
+    background-color: #fefefe;
+    border-radius: 10px;
+}
+
+#section5 img {
+    margin-left: 20px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+#section6 {
+    background-color: #fefefe;
+}
+
+#section6 h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #13180c;
+}
+
+#section6 img {
+    height: 400px;
+    float: left;
+}
+
+#section6 .section_content * {
+    margin: 20px 50px;
+}
+
+
+/* #section6 ul {
+    width: fit-content;
+    margin: auto;
+}
+
+#section6 li {
+    width: 450px;
+    height: 400px;
+    margin: 0px 10px;
+    display: inline-block;
+    list-style: none;
+    background-color: #eeeeee;
+} */
+
+#budget_area {
+    padding: 40px;
+    background-color: #eeeeee;
+    height: 320px;
+    width: 320px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#result_calc_budget {
+    /* height: 100px; */
+    border: 2px #8cb732 solid;
+    border-radius: 10px;
+}
+
+#result_calc_budget h1 {
+    color: red;
+}
+
+
+/* END ARTICLE */
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #3e7521;
+    color: #fefefe;
+    height: 50px;
+    vertical-align: middle;
+}
+
+
+/* END FOOTER */
