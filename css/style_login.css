@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    /* background-color: #252525; */
+    background-color: #3e7521;
+    /* background-image: url("file:///E:/MY_GREAT_PROJECT/imagens/printed_circuit_board_black.jpg"); */
+    background-size: cover;
+    /* filter: brightness(45%); */
+}
+.header{
+    font-size: 40px;
+    height: 40px;
+    padding: 10px 30px;
+    color: #fefefe;
+}
+.login_box{
+    padding: 30px;
+    margin: auto;
+   
+    height: 520px;
+    width: 400px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 0 1.8rem rgba(0,0,0,.15);
+}
+.login_box header h1{
+    text-align: center;
+}
+.login_box header{
+    margin-bottom: 30px;
+}
+.login_box form *{
+    font-size: 18px; 
+    margin: 30px 50px 0px 50px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .login_box input{
+    padding-left: 20px;
+} */
+.login_box .button{
+    background-color: #fefefe;
+    border: 1px #8cb732 solid;
+    border-radius: 5px;
+    color: #8cb732;
+}
+.login_box a{
+    margin: auto;
+    font-size: 15px;
+    color: #8cb732;
+}
